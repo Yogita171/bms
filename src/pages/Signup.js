@@ -111,7 +111,7 @@ const Signup=()=>{
                                    invalid={error.errors?.response?.data?.name?true:false}/>
 
                                    <FormFeedback>
-                                        {error.error?.response?.data?.name}
+                                        {error.errors?.response?.data?.name}
                                    </FormFeedback>
                         </FormGroup>
 
@@ -126,7 +126,7 @@ const Signup=()=>{
                                invalid={error.errors?.response?.data?.email?true:false}/>
 
                                 <FormFeedback>
-                                        {error.error?.response?.data?.email}
+                                        {error.errors?.response?.data?.email}
                                 </FormFeedback>
                         </FormGroup>
 
@@ -141,7 +141,7 @@ const Signup=()=>{
                                invalid={error.errors?.response?.data?.contact_no?true:false}/>
 
                                     <FormFeedback>
-                                        {error.error?.response?.data?.contact_no}
+                                        {error.errors?.response?.data?.contact_no}
                                     </FormFeedback>
                         </FormGroup>
 
@@ -156,7 +156,7 @@ const Signup=()=>{
                                invalid={error.errors?.response?.data?.password?true:false}/>
 
                                 <FormFeedback>
-                                        {error.error?.response?.data?.password}
+                                        {error.errors?.response?.data?.password}
                                 </FormFeedback>
                         </FormGroup>
 
@@ -171,7 +171,7 @@ const Signup=()=>{
                                invalid={error.errors?.response?.data?.password2?true:false}/>
 
                                 <FormFeedback>
-                                        {error.error?.response?.data?.password2}
+                                        {error.errors?.response?.data?.password2}
                                 </FormFeedback>
                         </FormGroup>
 
