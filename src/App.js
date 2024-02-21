@@ -15,7 +15,7 @@ import Userdashboard from './pages/userdashboard';
 import Privateroute from './components/Privateroute';
 import Profile_info from './pages/Profile_info';
 import Feedback from './pages/Feedback';
-import { AppProvider } from '../src/context/AppContext';
+import { AppProvider } from '../src/context/';
 import Budget from '../src/dashboard/Budget';
 import ExpenseTotal from '../src/dashboard/ExpenseTotal';
 import ExpenseList from '../src/dashboard/ExpenseList';

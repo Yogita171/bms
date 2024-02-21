@@ -27,7 +27,7 @@ export const AppReducer = (state, action) => {
 	}
 };
 
-// 1. Sets the initial state when the app loads
+
 const initialState = {
 	budget: 5000,
 	// expenses: [
