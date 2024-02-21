@@ -12,8 +12,16 @@ const Edit=(props)=>{
                 required="required"
                 className="edit-1"  
                 id="name"        
-                onChange={}         
+                value={value}
+                onChange={(event) => setValue(event.target.value)}         
             />
+            <button
+                type ='button'
+                className = 'edit'
+                onClick={() => props.handleSaveClick(value)}
+            >
+                Done
+            </button>
         </>
     )
 }
