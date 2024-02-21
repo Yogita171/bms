@@ -1,3 +1,5 @@
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,6 +15,13 @@ import Userdashboard from './pages/userdashboard';
 import Privateroute from './components/Privateroute';
 import Profile_info from './pages/Profile_info';
 import Feedback from './pages/Feedback';
+import { AppProvider } from '../src/context/AppContext';
+import Budget from '../src/dashboard/Budget';
+import ExpenseTotal from '../src/dashboard/ExpenseTotal';
+import ExpenseList from '../src/dashboard/ExpenseList';
+import AddExpenseForm from '../src/dashboard/AddExpenseForm';
+import RemainingBudget from '../src/dashboard/Remaining';
+
 
 function App() {
   return ( 
