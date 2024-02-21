@@ -10,14 +10,14 @@ const Edit=(props)=>{
             <input 
                 type="number"
                 required="required"
-                className="edit-1"  
+                class="edit-1"  
                 id="name"        
                 value={value}
                 onChange={(event) => setValue(event.target.value)}         
             />
             <button
                 type ='button'
-                className = 'edit'
+                class='btn btn-primary'
                 onClick={() => props.handleSaveClick(value)}
             >
                 Done
@@ -26,5 +26,5 @@ const Edit=(props)=>{
     )
 }
 
-export default Edit
+export default Edit;
 
